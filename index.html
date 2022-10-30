@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cooked Giggle</title>
+</head>
+<body>
+	<style type="text/css">
+		
+		body{
+			margin: 0;
+		
+        }
+
+		nav{
+			width:  100%;
+			height: 60px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: fixed;
+			background-color: #fefefe;
+
+		}
+
+		nav section{
+			margin: 0 35px;
+			color: black;
+
+		}
+
+		.menu{
+			width: 200px;
+			margin-left: -70em;
+			border-style: double;
+			background-color: #ffffff;
+			border-color: black;
+			padding: 10px;
+			border-radius: 20px;
+
+
+		}
+
+		.menu a{
+			background-color: #eee;
+			color: black;
+			display: block;
+			padding: 12px;
+			text-decoration: none;
+			margin-left: 50px;
+		}
+		.menu a:hover{
+			background-color: #ccc;
+		}
+		.landingpage{
+
+		  background: #2e2e2e;
+			width: 100%;
+			height: 100vh;
+			display:  flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			color: white; 
+      background-image: linear-gradient(rgba(0,0,0,0.3)50%, rgba(0,0,0,0.3)50%), url(image.jpg);
+      background-size: cover;
+        }
+
+
+		.landingpage img{
+			width: 250px;
+			height:  250px;
+			border-radius: 50%;
+		}
+
+		.landingpage p{
+			color: white;
+			font-size: 90px;
+		}
+		
+
+		.TOS{
+			margin: 0 5px;
+			align-items: center;
+		}
+		.TOS button{
+			margin: 5 2px;
+			align-items: center;
+		}
+		.main{
+			text-align: center;
+			color: #000;
+			background-color: #fff;
+			width: 50%;
+			margin: 0 auto;
+			font-family: monospace, verdana, sans-serif;
+		}
+		.space{
+			width: 600px;
+			margin: 50px auto;
+			padding: 10px;
+		}
+		.firstcontainer h1{
+			font-size: 40px;
+		}
+		.About img{
+			border-radius: 100px;
+			margin-left: 110px;
+		}
+		.About p{
+			font-size: 20px;
+			text-align: center;
+
+		}
+		.About h1{
+			font-size: 40px;
+			text-align: center;
+		}
+
+		.About-text h2{
+			font-size: 30px;
+			text-align: left;
+			font-style: normal;
+		}
+
+.column {
+  float: left;
+  width: 13%;
+  padding: 5px 80px;
+  
+}
+
+.row {margin: 0 -5px;}
+
+.button {
+  border-radius: 6px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  flex-direction: row;
+}
+
+.topnav {
+  overflow: hidden;
+ 
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+
+
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16\px;
+  text-align: center;
+  background-color: rgb(112, 103, 103);
+  color: white;
+}
+
+.fa {font-size:50px;}
+	
+    </style>
+
+
+	<nav style="background-color: lightblue;" >
+
+	  <div class="topnav">
+		<a class="active" href="file:///C:/Users/dell/Documents/PROJECT/Web%20Development/MY%20WEB/index.html#home">Home</a>
+		<a href="file:///C:/Users/dell/Documents/PROJECT/Web%20Development/MY%20WEB/shop.html">Shop</a>
+		<a href="file:///C:/Users/dell/Documents/PROJECT/Web%20Development/MY%20WEB/contact.html">Contact</a>
+		<a href="file:///C:/Users/dell/Documents/PROJECT/Web%20Development/MY%20WEB/about.html">About</a>
+		<a href="file:///C:/Users/dell/Documents/PROJECT/Web%20Development/MY%20WEB/Terms%20Of%20Service.html">TOS</a>
+	
+	  
+	  </div>
+
+	  
+	  <div style="padding-left:19px">
+		
+	  </div>
+
+	  
+	  
+	</nav>
+	<main>
+        <header class="landingpage">
+          <p>Cooked Giggle</p>
+          <h1><FONT SIZE = 6  style="font-family: 'Courier New', Courier, monospace;">Italian Snacks that will favour your taste buds</FONT></h1>
+		  <h1><FONT SIZE = 5 style="font-family: cursive;">Get your desired snack at the right time and the right space</FONT></h1>
+          <h2></h2>
+          <button class="button"><span>Explore </span></button>
+        
+		</header>
+		 
+		  <section class="About" id="About"></section>
+		  <div class="About">
+			  <br>
+			  <br>
+			  <br>
+			  <h1>About The Team</h1>
+			  <p>Cooked Giggle has an effective team who deliver the best services!
+				  With their experience in customer services and 
+			  </p>
+			  <img src="team1.jpg" alt="picture of a lady" width="200" height="200">
+			  <img src="team2.jpeg" alt="picture of a lady" width="200" height="200">
+			  <img src="team3.jpg" alt="picture of a lady" width="200" height="200">
+			  <img src="team4.jpg" alt="picture of a lady" width="200" height="200"> 
+		  </div>
+
+		
+
+
+		  <div class="row">
+			<div class="column">
+			  <div class="card">
+				<h3>KATE JIM</h3>
+				<p>CEO</p>
+			  </div>
+			</div>
+
+			
+			<div class="row">
+				<div class="column">
+				  <div class="card">
+					<h3>GOODNESS OMENUKO</h3>
+					<p>Operations manager</p>
+				  </div>
+				</div>
+
+				
+				<div class="row">
+					<div class="column">
+					  <div class="card">
+						<h3>ELEAZAR MUSA</h3>
+						<p>Resource person</p>
+					  </div>
+					</div>
+
+					
+		  <div class="row">
+			<div class="column">
+			  <div class="card">
+				<h3>MARVELOUS SILAS </h3>
+				<p>Restaurateur</p>
+			  </div>
+			</div>
+
+			<img src="facebookicon.png" alt="facebookicon" width="50" height="50">
+
+		
+	
+
+
+
+        
+</body>
+</html>
+
+</body>
+</html>
